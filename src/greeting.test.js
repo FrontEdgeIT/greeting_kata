@@ -1,6 +1,7 @@
-import { HelloWorld } from './greeting'
+/* eslint-disable import/named */
+import { HelloWorld } from "./greeting";
 
-
-it('returns hello world', () => {
-    expect(HelloWorld()).toEqual("Hello World");
+/* global it expect */
+it("returns hello world", () => {
+  expect(HelloWorld()).toEqual("Hello World");
 });
